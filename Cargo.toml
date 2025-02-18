@@ -1,11 +1,11 @@
 [package]
-name = "pico-w-wifi-blinky"
+name = "pico-w-blinky"
 version = "0.1.0"
 edition = "2021"
 
 # rust-analyzerでno_std特有の警告が出るのを防ぐ
 [[bin]]
-name = "pico-w-wifi-blinky"
+name = "pico-w-blinky"
 path = "src/main.rs"
 test = false
 doctest = false
