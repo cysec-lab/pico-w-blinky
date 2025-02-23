@@ -11,7 +11,7 @@ rustup target add thumbv6m-none-eabi
 cargo install elf2rf2-rs flip-link
 ```
 ## 実行方法
-* Raspberry pi pico w のBOOSSELボタンを押したままPCと接続し、以下のコマンドを実行
+* Raspberry pi pico w のBOOTSELボタンを押したままPCと接続し、以下のコマンドを実行
 ```sh
 cargo run --release
 ```
